@@ -1,0 +1,57 @@
+:root {
+  --background: #fff;
+  --foreground: #0a0a12;
+  --card: #fff;
+  --card-foreground: #0a0a12;
+  --popover: #fff;
+  --popover-foreground: #0a0a12;
+  --primary: #18192a;
+  --primary-foreground: #f8fafc;
+  --secondary: #f1f5f9;
+  --secondary-foreground: #18192a;
+  --muted: #f1f5f9;
+  --muted-foreground: #6b7280;
+  --accent: #f1f5f9;
+  --accent-foreground: #18192a;
+  --destructive: #ef4444;
+  --destructive-foreground: #f8fafc;
+  --border: #e5e7eb;
+  --input: #e5e7eb;
+  --ring: #0a0a12;
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: #0a0a12;
+  --foreground: #f8fafc;
+  --card: #0a0a12;
+  --card-foreground: #f8fafc;
+  --popover: #0a0a12;
+  --popover-foreground: #f8fafc;
+  --primary: #f8fafc;
+  --primary-foreground: #18192a;
+  --secondary: #23263a;
+  --secondary-foreground: #f8fafc;
+  --muted: #23263a;
+  --muted-foreground: #a1a1aa;
+  --accent: #23263a;
+  --accent-foreground: #f8fafc;
+  --destructive: #991b1b;
+  --destructive-foreground: #f8fafc;
+  --border: #23263a;
+  --input: #23263a;
+  --ring: #e0e7ff;
+}
+
+* {
+  border-color: var(--border);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+html {
+  scroll-behavior: smooth;
+}
