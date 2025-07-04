@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "GazDimension - Dimensionare Sisteme Gaze Naturale",
-  description: "Soluții profesionale pentru dimensionarea rețelelor de distribuție gaze naturale cu presiune redusă și medie. Sutac Ionel - specialist autorizat.",
+  description: "Soluții profesionale pentru dimensionarea rețelelor de distribuție gaze naturale cu presiune redusă și medie. Specialist autorizat.",
 };
 
 export default function RootLayout({

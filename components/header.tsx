@@ -32,7 +32,7 @@ export default function Header() {
             <div className="w-5 h-5 bg-white rounded-md opacity-90"></div>
           </div>
           <div>
-            <h1 className="text-xl font-bold text-white">DimensionareGAZE</h1>
+            <h1 className="text-xl font-bold text-white">DIMENSIONARE GAZE NATURALE</h1>
           </div>
         </div>
 

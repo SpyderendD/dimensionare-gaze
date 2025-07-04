@@ -102,7 +102,7 @@ export default function NetworkSection() {
           className="bg-gradient-to-r from-slate-900 to-blue-900 rounded-2xl p-8 text-white text-center"
         >
           <h3 className="text-2xl font-bold mb-6 text-blue-400">
-            Conformitate 100% ANRE • Răspuns în 24h
+            Conformitate 100% ANRE
           </h3>
           <p className="text-slate-300">
             Toate proiectele respectă normele de siguranță și calitate

@@ -7,6 +7,7 @@ import { Shield, Gauge, Zap, Settings, FileText, CheckCircle } from "lucide-reac
 export default function ServicesSection() {
   console.log("ServicesSection component rendered");
   
+  // MODIFICAT: Am eliminat serviciul de "Consultanță" care conținea verificarea de proiecte.
   const services = [
     {
       icon: Gauge,
@@ -19,12 +20,6 @@ export default function ServicesSection() {
       title: "Presiune Medie", 
       description: "Sisteme presiune medie (0.1 - 4 bar) pentru consumatori industriali și mari instalații.",
       features: ["Analiza presiuni", "Stații reglare", "Siguranță"]
-    },
-    {
-      icon: Shield,
-      title: "Consultanță",
-      description: "Expertiză specializată conform normelor ANRE și standardelor europene.",
-      features: ["Audit proiecte", "Optimizare", "Conformitate"]
     },
     {
       icon: FileText,
@@ -52,6 +47,7 @@ export default function ServicesSection() {
           </p>
         </motion.div>
 
+        {/* NOTĂ: Grila va afișa acum 3 elemente. Al treilea element va fi pe un rând nou, aliniat la stânga pe ecrane medii. */}
         <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
           {services.map((service, index) => (
             <motion.div
@@ -91,8 +87,7 @@ export default function ServicesSection() {
             </motion.div>
           ))}
         </div>
-
-
+        
       </div>
     </section>
   );
