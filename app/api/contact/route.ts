@@ -51,7 +51,7 @@ export async function POST(request: NextRequest) {
     // Folosim 'await' pentru a aștepta finalizarea operațiunii
     const { data, error } = await resend.emails.send({
       from: 'Formular Contact <onboarding@resend.dev>', // Adresa de testare Resend
-      to: ['meraalin45@gmail.com'], // Adresa ta unde vrei să primești email-urile
+      to: ['ionsutac@yahoo.com'], // Adresa ta unde vrei să primești email-urile
       subject: `Cerere nouă de dimensionare de la ${email}`,
       replyTo: email, // Foarte util! Când dai "Reply", vei răspunde direct utilizatorului
       html: `
